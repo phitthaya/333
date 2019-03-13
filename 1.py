@@ -11,27 +11,27 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="EpWhlumZK46bRyu71l58.6S7B6iV24SxpyyIZPkjUga.S6TstSNeC0w0GxGFge6vC4RnZP/5VihzYkjd0ihCFSw=")
+cl.login(token="ECl8fQkYHcFwU8fDpGxd.pZRlk/quTOI1wK/sqEDwJq.pHAPz4/2v1u0smGrPG9Hq+suqUYNTQNm3EDBFtCIaSo=")
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
-ki1.login(token="EpKcMD4qjbM0tCDjPmv9.Z2jqcI8fppmz+7xOGNlyEq.32XztUCQ9xEpjpQlwcpyTfYJETgD2ubX9V4Mg31y11E=")
+ki1.login(token="ECl8fQkYHcFwU8fDpGxd.pZRlk/quTOI1wK/sqEDwJq.pHAPz4/2v1u0smGrPG9Hq+suqUYNTQNm3EDBFtCIaSo=")
 ki1.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="EpyCK22hNJVKM0jL36xa.Ql+Iq95c4olkmxSaoadLoG.q6NbdCIrnsVDEhh/QOtjUi6OmvlTn+bDgbgVuHrh09o=")
+ki2.login(token="ECl8fQkYHcFwU8fDpGxd.pZRlk/quTOI1wK/sqEDwJq.pHAPz4/2v1u0smGrPG9Hq+suqUYNTQNm3EDBFtCIaSo=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="EpGvcG7JkNyEA5wwwLu6.SGby4XQI1gAOTET1lBqQ9G.coIXFC5dgqd75X9kFA2eX500d2R+6PhZf+ARFYs4SUU=")
+ki3.login(token="ECl8fQkYHcFwU8fDpGxd.pZRlk/quTOI1wK/sqEDwJq.pHAPz4/2v1u0smGrPG9Hq+suqUYNTQNm3EDBFtCIaSo==")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="EpWQyd0Ii7JmcSaUdOPa.Q6+YE7DHLRb+4/UXmbKggG.HUGO5X2CGahN6YSosV4M44aGeFXb8tj6vELArbekXzQ=")
+ki4.login(token="ECl8fQkYHcFwU8fDpGxd.pZRlk/quTOI1wK/sqEDwJq.pHAPz4/2v1u0smGrPG9Hq+suqUYNTQNm3EDBFtCIaSo=")
 ki4.loginResult()
 
 ūki5 = LINETCR.LINE()
-ki5.login(token="Eplftwaw4f4ez8k9mdp8.7fLTCfOW6V77bikOdoT16a.HDwV3xjYOQXDUAu+NiB1DsKEjz+lUaH9nHhSgn/fQuo=")
+ki5.login(token="ECl8fQkYHcFwU8fDpGxd.pZRlk/quTOI1wK/sqEDwJq.pHAPz4/2v1u0smGrPG9Hq+suqUYNTQNm3EDBFtCIaSo=")
 ki5.loginResult()
 
 #ki6 = LINETCR.LINE()
@@ -290,13 +290,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = ["ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8",mid,Amid1,Amid2,Amid3,Amid4,Amid5]
-self = ["ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8",mid,Amid1,Amid2,Amid3,Amid4,Amid]
-admin = "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
-admsa = "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
-owner = "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
-adminMID = "ueacedbe88bf6e2c5cf6188b3a4a26e18"
-Creator= "ueacedbe88bf6e2c5cf6188b3a4a26e18","ucf62500a2f053cf319ffb5e88272d879","ua8bfe243de42e0e2ca317b003800e53a","ub20058e31aa2d466a8b5eb752db42af6","uabaff27bb76196b07fe3ebb13019061a","uec596d705a30eafefb0482a80ceb75e8"
+Bots = ["u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d",mid,Amid1,Amid2,Amid3,Amid4,Amid5]
+self = ["u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d",mid,Amid1,Amid2,Amid3,Amid4,Amid]
+admin = "u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d"
+admsa = "u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d"
+owner = "u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d"
+adminMID = "u3f3acb2be414b688b55a4f9241e7568d"
+Creator= "u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d","u3f3acb2be414b688b55a4f9241e7568d"
 wait = {
     "alwayRead":False,
     "detectMention":True,    
